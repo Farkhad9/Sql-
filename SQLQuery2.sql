@@ -34,4 +34,3 @@ SELECT
     b.Name AS BrandName,
     p.Price
 FROM Products p
-JOIN Brands b ON p.BrandId = b.Id;
