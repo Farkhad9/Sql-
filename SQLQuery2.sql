@@ -34,6 +34,7 @@ SELECT
     b.Name AS BrandName,
     p.Price
 FROM Products p
+<<<<<<< HEAD
 JOIN Brands b ON p.BrandId = b.Id;
 SELECT 
     p.Name AS ProductName,
@@ -47,3 +48,5 @@ SELECT
 FROM Brands b
 JOIN Products p ON p.BrandId = b.Id
 GROUP BY b.Name;
+=======
+>>>>>>> 17c471648370478014b42b760a13ecb6f006a29a
