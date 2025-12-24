@@ -35,3 +35,15 @@ SELECT
     p.Price
 FROM Products p
 JOIN Brands b ON p.BrandId = b.Id;
+SELECT 
+    p.Name AS ProductName,
+    b.Name AS BrandName,
+    p.Price
+FROM Products p
+INNER JOIN Brands b ON p.BrandId = b.Id;
+SELECT 
+    b.Name AS BrandName,
+    MAX(p.Price) AS MaxPrice
+FROM Brands b
+JOIN Products p ON p.BrandId = b.Id
+GROUP BY b.Name;
