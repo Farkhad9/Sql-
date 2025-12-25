@@ -45,8 +45,3 @@ INNER JOIN Brands b ON p.BrandId = b.Id;
 SELECT 
     b.Name AS BrandName,
     MAX(p.Price) AS MaxPrice
-FROM Brands b
-JOIN Products p ON p.BrandId = b.Id
-GROUP BY b.Name;
-=======
->>>>>>> 17c471648370478014b42b760a13ecb6f006a29a
