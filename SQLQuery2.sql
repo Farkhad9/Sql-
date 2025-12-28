@@ -24,7 +24,7 @@ VALUES
 ('HP');
 INSERT INTO Products (Name, Price, BrandId)
 VALUES
-('iPhone 14', 1800, 1),
+('Iphone 17 Pro Max 2 TB', 1800, 1),
 ('Galaxy S23', 1600, 2),
 ('Redmi Note 12', 600, 3),
 ('MacBook Air', 2200, 1),
