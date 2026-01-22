@@ -28,7 +28,6 @@ VALUES
 ('Galaxy S23', 1600, 2),
 ('Redmi Note 12', 600, 3),
 ('MacBook Air', 2200, 1),
-('HP Pavilion', 1400, 4);
 SELECT 
     p.Name AS ProductName,
     b.Name AS BrandName,
